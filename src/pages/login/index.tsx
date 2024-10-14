@@ -9,8 +9,8 @@ import { Button } from "@/src/components/Button";
 import { useNavigation, NavigationProp } from "@react-navigation/native";
 
 export default function Login (){
-    const[email,setEmail] = useState ('a');
-    const[password, setPassword] = useState('a');
+    const[email,setEmail] = useState ('');
+    const[password, setPassword] = useState('');
     const[showPassword, setShowPassword] = useState(true);
     const[loading, setLoading] = useState(false)
     const navigation = useNavigation<NavigationProp<any>>()
